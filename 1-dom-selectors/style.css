@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100;1,400;1,500&display=swap");
+button {
+}
+
+.class {
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.card {
+	/* font-family: "Roboto", sans-serif; */
+	max-width: 200px;
+	background-color: rgb(219, 217, 217);
+	box-shadow: 2px 2px 4px rgb(169, 169, 169);
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+.special {
+	font-family: "Roboto";
+	color: red;
+	text-transform: capitalize;
+}
+
+h3:not(.special) {
+	color: dodgerblue;
+}
+
+h2 {
+	color: magenta;
+}
+
+[custom-attribute] {
+	color: green;
+}
