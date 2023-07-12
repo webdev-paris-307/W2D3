@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./js/index.js" type="module"></script>
+		<title>Document</title>
+		<style>
+			article {
+				height: 100vh;
+			}
+			html {
+				scroll-behavior: smooth;
+			}
+			.container {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 2rem;
+				padding: 2rem;
+			}
+
+			.circle {
+				height: 5rem;
+				width: 5rem;
+				border-radius: 50%;
+				border: 1px solid black;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#first">First section</a></li>
+			<li><a href="#second">Second section</a></li>
+			<li><a href="#third">Thrid section</a></li>
+		</ul>
+		<button id="my-button">Generate a Circle</button>
+		<button id="reset-all">Reset everything</button>
+
+		<section class="container"></section>
+
+		<article id="first">First article</article>
+		<article id="second">Second article</article>
+		<article id="third">Third article</article>
+	</body>
+</html>

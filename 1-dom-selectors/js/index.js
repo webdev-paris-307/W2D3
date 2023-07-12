@@ -158,7 +158,13 @@ allTheBobs.forEach((name) => {
 
 title.setAttribute("custom-attribute", "custom value")
 title.setAttribute("custom-attribute", "red")
+title.getAttribute("cutsom-attribute")
 
 /**
  * Modify / Read / Create some data-* attributes
  */
+
+const studentWithAttribute = document.querySelector(".student-with-attributes")
+console.log(studentWithAttribute.dataset)
+studentWithAttribute.dataset.id
+studentWithAttribute.dataset.cardNumber
